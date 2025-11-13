@@ -7,7 +7,6 @@ public class Renderer {
     private RenderStrategy strategy;
 
     public Renderer() {
-        // default strategy
         this.strategy = new SimpleRenderStrategy();
     }
 
@@ -19,3 +18,4 @@ public class Renderer {
         return strategy;
     }
 }
+
